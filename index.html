@@ -1,0 +1,55 @@
+<html lang="en">
+  <style>
+    body{
+      background-color:#f5f5f5;
+    }
+    p{
+      color: #999999;
+      font-size: 14px;
+    }
+    .wrapper{
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .container{
+      width: 69%;
+    }
+    .title{
+      width: 29%;
+      font-family:DIN;
+      height: 900px;
+    }
+    .containerScatter{
+      width: 100%;
+      font-family:DIN;
+      height:350px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Viz</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="container"></div>
+    <div class="title"><h1>DOES COLOUR MATTER?<h1>
+      <h3>Do black cars perform better in the second-hand car market?</h3>
+      <div class="intro"><p>“Wash me, please!” Colour is an important issue when buying a car. How does Colour relate to second-hand car price, and how does the preference change over time? This visualisation explores the relationship between car colour and selling price by exploring manufacturers’ market share, car colour’s holding values about the model and the correlation between car’s condition and price. 
+        Feel free to move around to see which Colour has the most potential!</p></div>
+        <img src="intro.svg"/>
+    </div>
+    <div class = "containerScatter">
+      <h2>Average price of the color in the year</h2>
+    </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </body>
+</html>
